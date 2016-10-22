@@ -1,0 +1,6 @@
+<div *ngFor="let message of messages">
+    <a [routerLink]="['stats',message]">{{message}}</a>
+</div>
+
+
+<button (click)="addMessage()">Click Me</button>
